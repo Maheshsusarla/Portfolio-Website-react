@@ -1,4 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-// base "./" lets the build work on GitHub Pages under any repo name
-export default defineConfig({ plugins: [react()], base: "/Portfolio-Website-react" });
+
+export default defineConfig({
+  plugins: [react()],
+  base: "/Portfolio-Website-react/",  // ← trailing slash add cheyyi
+});
