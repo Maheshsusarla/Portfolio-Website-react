@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+# build output
+dist
+
+# environment variables (Formspree ID)
+.env
+.env.local
+public
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS files
+.vscode
+.DS_Store
