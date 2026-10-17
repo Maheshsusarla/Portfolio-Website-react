@@ -7,7 +7,6 @@ dist
 # environment variables (Formspree ID)
 .env
 .env.local
-public
 
 # logs
 *.log
