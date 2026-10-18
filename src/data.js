@@ -8,7 +8,7 @@ export const profile = {
   github: "https://github.com/Maheshsusarla",
   linkedin: "https://www.linkedin.com/in/mahesh-susarla-509388279/",
   resume: "/resume.pdf", 
-  photo: "../public/images/my-img.png",
+  photo: "./public/my-img.png",  
 };
 
 export const about = {
